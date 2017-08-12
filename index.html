@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+</body>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css" >
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  	<meta name="description" content="Portfolio,Self-Made,No-Template,HTML5,CSS3,Jquery,Javascript">
+  	<meta name="author" content="Kartik Goel, Web-Desginer,Programmer,AI Ethusiast,Inspiring Poet,Android Developer,Astro-Physics Lover,Love Hacking">
+  	<meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+  	<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Crimson+Text|Work+Sans|Merriweather|Slabo+27px|Lato|Sanchez" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="smoothscroll.js"></script>
+   	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="materialize.min.js"></script>
+      <title>
+  			Kartik Goel 
+  		</title>
+</head>
+<html>
+<body> 
+ 
+<ul>
+	<li> <a href="#contact" class="smoothScroll"> Contact</a></li>
+	<li><a href="#services" class="smoothScroll">Services</a></li>
+	<li> <a href="#skills" class="smoothScroll"> Skills</a></li>
+	<li> <a href="#about" class="smoothScroll"> About</a></li>
+	<li> <a href="#"> Home</a></li>
+</ul>
+<section class="Home">
+
+<header class="main">
+	<div class="main-content">	
+	<h1 class="animated">A PRO WAS ONCE A NOOB.....</h1>	
+	<hr class="home"></hr>
+  <h3 class="animated" id="home">Explore me </h3>
+  <a href="#about" class="smoothScroll"><i class="fa fa-arrow-circle-down" style="font-size:36px;padding-bottom: 220px;padding-left: 1px"></i></a>
+
+</div>
+</header>
+</section>
+<section class="About">
+	<p>About Me </p> 
+	<p class="content-three"> You will be happy to know me at my Best!</p>
+	<br>
+<img src="about.jpg" id="about"></img>
+<p class="content"><span class="content-one">Kartik Goel </span> <br><br>
+<span class="content-two">Inspiring Writer and Aspiring Web Designer</span> <br>
+ Hey There! My name is Kartik Goel.I am currently a student <br> of Delhi Public School,Haridwar studying in standard XI.<br> I am much addicted to technology,programming and <br> a cup of coffee with it!! Hehe,Jokes apart, I like to design <br> web pages in my free time, and beside this I also write poems.<br>I have small collection of them and you can see it on my <a href="https://kg31.blogspot.in" target="_blank" class="blog"> Blog </a>. <br>I also love Astro-Physics, Hacking and yea I have lot of interest in AI. <br> I am currently working on Android Development as a part of my <br>hobby.I am on various social networking sites, so you can Contact me there. 
+</p>
+</section>
+<section class="Skills">
+	<div class="parallax-container">
+<div class="parallax"><img src="skills-img.jpg" class="Skills-img"><h4 id="skills-heading">Skills</h4></div>
+<div id="skills">
+<div class="skillbar" id="html5" data-percent="80%">
+	<div class="skillbar-title" style="background: #d35400;"><span>HTML5</span></div>
+	<div class="skillbar-bar" style="background: #e67e22;"></div>
+	<div class="skill-bar-percent">80%</div>
+</div> 
+
+<div class="skillbar" id="css3" data-percent="75%">
+	<div class="skillbar-title" style="background: #2980b9;"><span>CSS3</span></div>
+	<div class="skillbar-bar" style="background: #3498db;"></div>
+	<div class="skill-bar-percent">75%</div>
+</div> 
+
+<div class="skillbar" id="machine-learning" data-percent="60%">
+	<div class="skillbar-title" style="background: #2c3e50;"><span>Machine Learning</span></div>
+	<div class="skillbar-bar" style="background: #2c3e50;"></div>
+	<div class="skill-bar-percent">60%</div>
+</div> 
+
+<div class="skillbar" id="php" data-percent="70%">
+	<div class="skillbar-title" style="background: #46465e;"><span>PHP</span></div>
+	<div class="skillbar-bar" style="background: #5a68a5;"></div>
+	<div class="skill-bar-percent">70%</div>
+</div> 
+<div class="skillbar" id="android-development" data-percent="60%">
+	<div class="skillbar-title" style="background: #333333;"><span class="content">Android Development</span></div>
+	<div class="skillbar-bar" style="background: #525252;"></div>
+	<div class="skill-bar-percent">60%</div>
+</div> 
+
+<div class="skillbar" id="writing" data-percent="85%">
+	<div class="skillbar-title" style="background: #27ae60;"><span>Writing</span></div>
+	<div class="skillbar-bar" style="background: #2ecc71;"></div>
+	<div class="skill-bar-percent">85%</div>
+</div> <!-- End Skill Bar -->
+
+
+<script type="text/javascript">
+	var offsetTop = $('#skills').offset().top;
+	$(window).scroll(function() {
+  var height = $(window).height();
+  if($(window).scrollTop()+height > offsetTop) {
+    jQuery('.skillbar').each(function(){
+      jQuery(this).find('.skillbar-bar').animate({
+        width:jQuery(this).attr('data-percent')
+      },2000);
+    });
+  }
+  });
+</script>
+</section>
+<section class="Services">
+    <h1 class="services">Services </h1>
+    <div class="container-services">
+        <img src="html5.png"></img>
+        <div class="description"><span class="name">HTML5</span><br> I know much basics of previous version of HTML and HTML5, by which I can create a structure of your website..I will be happy to help you!!</div>
+        </div>
+
+    <div class="container-services">
+        <img src="css3.png" id="services"></img>
+        <div class="description"><span class="name">CSS3 </span><br> CSS3 is pretty awesome!!Styling of this website too is completely based on CSS3. I am progressively improving myself for more advanced CSS.So,I can help you a lot.</div>
+        </div>
+
+    <div class="container-services">
+        <img src="pencil.png"></img>
+        <div class="description"><span class="name">Writing</span> <br> You might have seen my Blog. Apart from writing poems, I also write write-ups.And if you require good quality content for your blog, I can write for it!!</div>
+</div>
+
+    <div class="container-services">
+        <img src="android.png"></img>
+        <div class="description"><span class="name">Android Development</span><br> I am currently working on Android-development, making apps and learning lot more new things.If you need to kickstart in this area, I can surely help you.</div>
+        </div>
+
+</section>
+<section class ="Contact">
+	<div class="parallax-container" id="contact-container">
+     <div class="parallax">
+     <img src="contact.jpg" class="contact-img"> <h2 id="contact">Connect with Me </h2> 
+     </div>
+     <a href="https://www.facebook.com/kartik.goel.5811" target="_blank"><i class="fa fa-facebook-official" style="font-size:72px"></i></a><span class="facebook-icon">Facebook</span>
+
+<a href="https://www.linkedin.com/in/kartik-g-7b5790131/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:72px"></i></a><span class="linkedin-icon">Linkedin</span>
+
+<a href="https://plus.google.com/u/0/100596326301256132589" target="_blank"><i class="fa fa-google-plus-circle" style="font-size:72px"></i></a><span class="google-plus-icon">Google+</span>
+<a href="https://www.instagram.com/_kartik_goel/" target="_blank"><i class="fa fa-instagram" style="font-size:72px"></a></i><span class="instagram-icon">Instagram</span>
+<a href="https://twitter.com/KartikG28281327" target="_blank"><i class="fa fa-twitter-square" style="font-size:72px"></i></a><span class="twitter-icon">Twitter</span>
+     </div>
+
+
+</section>
+<footer>
+<div class="footer">Created by Kartik Goel</div>
+</footer>
+<script type="text/javascript">
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='https://www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-52746336-1');ga('send','pageview');
+  var isCompleted = {};
+  function sampleCompleted(sampleName){
+    if (ga && !isCompleted.hasOwnProperty(sampleName)) {
+      ga('send', 'event', 'WebCentralSample', sampleName, 'completed'); 
+      isCompleted[sampleName] = true;
+    }
+  }
+</script>
+<script type="text/javascript">
+  
+
+function isElementInViewport(elem) {
+    var $elem = $(elem);
+
+
+    var scrollElem = ((navigator.userAgent.toLowerCase().indexOf('webkit') != -1) ? 'body' : 'html');
+    var viewportTop = $(scrollElem).scrollTop();
+    var viewportBottom = viewportTop + $(window).height();
+    var elemTop = Math.round( $elem.offset().top );
+    var elemBottom = elemTop + $elem.height();
+
+    return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
+}
+
+function checkAnimation() {
+    var $elem = $('h1');
+
+    if ($elem.hasClass('animated zoomIn')) return;
+
+    if (isElementInViewport($elem)) {
+        $elem.addClass('animated zoomIn');
+    }
+}
+
+$(window).scroll(function(){
+    checkAnimation();
+})
+
+   </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.parallax').parallax();
+    });
+      </script>  
+
+</html>
